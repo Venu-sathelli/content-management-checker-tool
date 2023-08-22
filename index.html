@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content-management Website Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Drag <span>and</span> Drop </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about" class="about">about me</a>
+            <a href="#content-modal">content</a>
+            <a href="#canvas">canvas</a>
+
+        </nav>
+    </header>
+<main>
+ 
+<div id="content-modal" class="hidden">
+    <div id="text-input" class="hidden">
+        <label for="text-content">Enter Text:</label>
+        <input type="text" id="text-content">
+        <button id="text-submit">Add Text</button>
+    </div>
+    <!-- ... (existing input fields for image and video) -->
+</div>
+<!-- ... (rest of the HTML code) -->
+
+  
+<div id="content-modal" class="hidden">
+    <!-- <div id="text-input" class="hidden">
+        <label for="text-content">Enter Text:</label>
+        <input type="text" id="text-content">
+        <button id="text-submit">Add Text</button>
+    </div> -->
+    <div id="image-input" class="hidden">
+        <label for="image-url">Image URL:</label>
+        <input type="text" id="image-url">
+        <button id="image-submit">Add Image</button>
+    </div>
+    <div id="video-input" class="hidden">
+        <label for="video-url">Video URL:</label>
+        <input type="text" id="video-url">
+        <button id="video-submit">Add Video</button>
+    </div>
+</div>
+<!-- ... (rest of the HTML code) -->
+<div id="canvas">
+    <!-- Drag-and-drop canvas -->
+</div>
+</main>
+   <h1 class="me" id="about"> About Me</h1>
+     <div class="about-content">
+        <h1>SATHELLI VENU</h1>
+        <p>KG reddy College of Engineering and Technology</p>
+        <p> venulucky23218@gmail.com</p>
+        <h4>The Task Is Content Management Tool</h4>
+        <h2>My Task is successfully completed</h2>
+     </div>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
+
